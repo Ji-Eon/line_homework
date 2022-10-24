@@ -23,7 +23,7 @@ import psycopg2
 
 app = Flask(__name__)
 api = Api(app, version='1.0', title='API 문서', description='Swagger 문서', doc="/api-docs")
-search_api = api.namespace('search',path='/wanted', description='조회 API')
+search_api = api.namespace('search',path='/cdm', description='조회 API')
 
 
 
@@ -173,11 +173,11 @@ def condition_occurence(column_name,concept_id):
     
 
 # Person Stastics
-@app.route('/statistics/person', methods=['GET'])
-def statistics_person():
-    if request.method == 'GET':
-        print('row')
-        
+@search_api.route('/statistics/person', methods=['GET'])
+class statistics_person(Resource):
+    def get(self):
+    
+    
         cur  = get_db_connection()
         
         cur.execute("""
@@ -198,9 +198,9 @@ def statistics_person():
 
 
 # Visit Stastics
-@app.route('/statistics/visit', methods=['GET'])
-def statistics_visit():
-    if request.method == 'GET':
+@search_api.route('/statistics/visit', methods=['GET'])
+class statistics_visit(Resource):
+    def get(self):
         
         cur  = get_db_connection()
         
