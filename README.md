@@ -47,6 +47,13 @@
 - 본인의 경우 Class형을 이용하여 Swagger 문서를 할수 있는 점을 보여드리고 싶었습니다
 - 현재 Django도 Class형을 이용하여 API를 개발하고 있으며 과제의 편의성과 심사위원님의 확인하실수 있도록 두가지 방법으로 구현하였습니다
 
+### CDM Data 경험 ###
+- 본인의 경우 CDM데이터를 이용하여 Node.js를 이용하여 Test Data를 이용하여 Taget Disease를 검색 및 분석한 경험이 있습니다.
+![ininital](https://github.com/Ji-Eon/line_homework/blob/main/Git-Image/gitimage_9.png?raw=true)
+![ininital](https://github.com/Ji-Eon/line_homework/blob/main/Git-Image/gitimage_10.png?raw=true)
+![ininital](https://github.com/Ji-Eon/line_homework/blob/main/Git-Image/gitimage_11.png?raw=true)
+
+
 ### 함수형 Response ####
 - Table 명 / 컬럼명 / 검색 id 값 
 - 2번문항과 3번 문항은 id 값으로 원하는 값으로 return 할수 있을거라 생각되어 concept_id값을 기준으로 값을 검색해서 가져올수 있도록 개인적으로 설계를 해보았습니다.
@@ -97,3 +104,4 @@
 # 👤 ** Volunteer Ji-Eon **
 
 - Github: [@Ji-Eon](https://github.com/Ji-Eon)
+- 본 Repository는 결과 수신에 따라 Private로 바로 변경하도록하겠습니다.
