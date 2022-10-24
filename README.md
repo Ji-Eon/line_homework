@@ -17,6 +17,11 @@
 ./clean.sh
 ```
 
+- env 파일!!!
+```sh
+만약 zip으로 다운로드할때 .env파일이 정상적으로 다운이 안되는 경우가 발생합니다. 
+현재 repository와 같은 경로로 .env파일을 꼭 확인하여주시고 없으시면 생성후 repository에 저장된 값을 넣어주시면 됩니다
+```
 ### 개발환경 및 사용 Tools
 - MacOS 
 - VSCode
