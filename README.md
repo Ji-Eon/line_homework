@@ -1,4 +1,4 @@
-<h1 align="center">Wanted Assignment</h1>
+<h1 align="center">LW Assignment</h1>
 
 
 ### 실행 Script
