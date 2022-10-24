@@ -36,6 +36,7 @@
 - http://localhost:5000/api-docs
 ```sh
   Flask서버에서 구현되어있는 API Document를 확인할 수 있으며 API 실행결과까지 확인할 수 있습니다.
+  - Dictonary 형태로 Key값은 확인할수 있는 값으로 변경해서 진행하려했으나 Document에 정확한 값을 찾을수 없어 Id 값으로 Key값을 대체하였습니다.
 ```
 ![ininital](https://github.com/Ji-Eon/line_homework/blob/main/Git-Image/gitimage_1.png?raw=true)
 ### GET Method : Person 통계정보 전체 가져오기 ####
